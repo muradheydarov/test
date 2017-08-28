@@ -68,7 +68,7 @@ toraman.func();
 
 var rect = function (w, h) {
     this.width = w;
-    this.height = h
+    this.height = h;    
 }
 
 rect.prototype.getArea = function () {
@@ -78,4 +78,7 @@ rect.prototype.name = "Hesen";
 
 var Rect = new rect(5,10);
 Rect.name = "Murad"
-Rect.getArea();
+console.log(Rect.name);
+
+var Rect2 = new rect(10,20);
+console.log(Rect2.name);
